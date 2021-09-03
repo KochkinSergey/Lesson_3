@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+ box-sizing: border-box;
+}
+
+
+.container{
+
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+
+a.li1 :hover, a.li1 :active {
+  background-color:turquoise;
+}
+
+
+a.li2 :hover {
+  background-color:yellow;
+}
+
+
+ .circle1 {
+    background:red;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+    
+  .circle2 {
+    background: red;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .circle3 {
+    background: red;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  .circle4 {
+    background: red;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+
+  .square1 {
+    background: blue;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+  }
+    
+
+  .square2 {
+    background: yellow;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    right: 30%;
+    bottom: 30%;
+    border-radius: 15%;
+  }
+  
+ 
